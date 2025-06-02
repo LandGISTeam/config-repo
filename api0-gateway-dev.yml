@@ -18,7 +18,11 @@ keycloak-client:
   realm:  test
 spring:
   application:
-    name: api-gateway 
+    name: api-gateway
+  zipkin:
+    enabled: false
+  sleuth:
+    enabled: false    
   security:
     oauth2:
       client:
