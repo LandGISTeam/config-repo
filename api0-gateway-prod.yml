@@ -8,14 +8,14 @@ logging:
     org.springframework.security.oauth2: DEBUG
 server:
   port: 8090
-base-url: http://www.tamky.xyz:${server.port} 
+base-url: http://172.26.1.51:${server.port} 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka0-service:8761/eureka/   
 keycloak-client:
-  server-url: '{cipher}e1e5a1ddf8af26a44ffca2d8633ec5ac5e3a08467594ca4cffedb03cb9e2c8a79943d19f9751020fc78d4af79aa3cd52'
-  realm:  mydev
+  server-url: https://laos-lis.uitgis.vn
+  realm:  test
 spring:
   application:
     name: api-gateway 
