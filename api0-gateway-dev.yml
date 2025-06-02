@@ -19,10 +19,6 @@ keycloak-client:
 spring:
   application:
     name: api-gateway
-  zipkin:
-    enabled: false
-  sleuth:
-    enabled: false    
   security:
     oauth2:
       client:
