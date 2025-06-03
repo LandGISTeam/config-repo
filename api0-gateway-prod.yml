@@ -14,8 +14,8 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka0-service:8761/eureka/   
 keycloak-client:
-  server-url: https://laos-lis.uitgis.vn
-  realm:  test
+  server-url: http://172.26.1.241:8080
+  realm:  laolis
 spring:
   application:
     name: api-gateway 
