@@ -18,7 +18,7 @@ keycloak-client:
   realm:  laolis
 spring:
   application:
-    name: api0-gateway 
+    name: api-gateway 
   security:
     oauth2:
       client:
